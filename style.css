@@ -1,0 +1,206 @@
+/* Navbar */
+/* Style par défaut pour les liens de la navbar */
+.custom-navbar .nav-link {
+    color: green; /* Couleur par défaut des liens */
+    font-weight: bold; /* Texte en gras pour une meilleure lisibilité */
+    text-transform: uppercase; /* Texte en majuscules pour une meilleure lisibilité */
+    padding: 10px 15px; /* Ajout de padding pour améliorer l'espace cliquable */
+    transition: color 0.3s, background-color 0.3s; /* Transition douce pour les changements de couleur */
+}
+
+/* Style pour les liens de la navbar au survol */
+.custom-navbar .nav-link:hover {
+    color: white; /* Couleur du texte lors du survol */
+    background-color: green; /* Couleur de fond lors du survol */
+}
+
+/* Style pour les liens de la navbar lorsqu'ils sont actifs */
+.custom-navbar .nav-link:active {
+    color: white; /* Couleur du texte lorsque le lien est actif */
+    background-color: darkgreen; /* Couleur de fond lorsque le lien est actif */
+}
+
+/* Style pour les liens de la navbar lorsqu'ils sont en focus */
+.custom-navbar .nav-link:focus {
+    outline: none; /* Suppression du contour par défaut */
+    color: white; /* Couleur du texte lorsqu'il est en focus */
+    background-color: darkgreen; /* Couleur de fond lorsqu'il est en focus */
+}
+
+/* Ajouter une bordure en bas pour les liens */
+.custom-navbar .nav-link {
+    border-bottom: 2px solid transparent; /* Bordure transparente par défaut */
+}
+
+/* Bordure en bas lorsqu'un lien est survolé ou actif */
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:active,
+.custom-navbar .nav-link:focus {
+    border-bottom: 2px solid white; /* Bordure blanche lors du survol, actif ou focus */
+}
+
+.custom-text {
+    color: green; /* Couleur du texte */
+    font-size: 48px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    margin-left: 10px; /* Espace entre le logo et le texte */
+}
+
+/* content */
+
+.full-width-image {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 100vw; /* 100% de la largeur de la fenêtre */
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Définissez une hauteur maximale pour l'image */
+    object-fit: cover; /* Pour que l'image couvre l'espace sans déformation */
+}
+ 
+
+
+
+
+
+/* Style pour la section de deux colonnes */
+.full-width-image .col-md-6 {
+    padding: 0;
+}
+
+.full-width-image .col-md-6 h2
+{
+    color : darkgreen;
+    font-size: 4em; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+.full-width-image .col-md-6 p {
+    color: darkgreen; /* Couleur verte pour le texte */
+    font-size: 2em;  
+    line-height: 1.5; /* Hauteur de ligne pour améliorer la lisibilité */
+
+}
+
+.text-style {
+    background-color: #FFFF; /* Fond gris clair */
+    padding: 20px; /* Padding pour ajouter de l'espace autour du texte */   
+}
+
+/* Assurez-vous que l'image prend toute la hauteur de sa colonne */
+.full-width-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.logoing {
+
+max-width: 100%;
+margin: 0 auto;
+
+}
+
+
+
+/* Pour que les colonnes aient la même hauteur */
+.full-width-image {
+    display: flex; /* Utilisation du modèle de boîte flexible */
+}
+
+.full-width-image .text-style {
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+
+/* Assurez-vous que l'image prend toute la hauteur de sa colonne */
+.full-width-image img {
+    width: 100%;
+    height: 100%; /* Prend toute la hauteur disponible */
+    object-fit: cover;
+}
+
+/* Ajouter des styles flex pour centrer le texte dans la section */
+.full-width-image .col-md-6.d-flex {
+    display: flex; /* Utilisation du modèle de boîte flexible */
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    height: 100%; /* S'assure que la colonne prend toute la hauteur disponible */
+}
+
+.text-style h1 {
+    color : #07142E;
+}
+
+
+
+
+
+.full-width-image .col-md-6.d-game {
+    display: flex; /* Utilisation du modèle de boîte flexible */
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    height: 100%; /* S'assure que la colonne prend toute la hauteur disponible */
+}
+
+/* Style pour les badges */
+
+
+
+.d-game {
+    display: flex;
+}
+
+.d-game  .text-style {
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+.d-game  .text-style  h2
+{
+    color : rgb(18, 236, 18);
+    font-size: 2em; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style pour les images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style pour les images avec taille fixe */
+.fixed-size {
+    width: 120px; /* Largeur fixe pour les images */
+    height: 40px; /* Conserve les proportions */
+}
+
+
+
+/* Style pour la section de parallaxe */
+.parallax {
+    background-image: url('img/para2.png');
+    height: 500px; /* Hauteur de la section */
+    background-attachment: fixed; /* Effet de parallaxe */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw; /* S'assure que la section prend toute la largeur de la fenêtre */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
