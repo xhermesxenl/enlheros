@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.logo {
+    max-height: 42px;
+    max-width: none;
+}
+
+.custom-text {
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar {
+    background: linear-gradient(to right, #90C841, #1BB489);
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.hero-section {
+    background: linear-gradient(to right, #90C841, #1BB489);
+    color: white;
+    position: relative;
+    padding: 100px 0 0 0; /* Remove bottom padding */
+    overflow: hidden;
+}
+
+.hero-section img {
+    max-width: 100%;
+}
+
+.app-badge {
+    width: 150px;
+    margin: 10px;
+}
+
+.curve {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px; /* Overlap the next section */
+}
+
+.content-section {
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+}
+
+
+.pub h1 {
+font-size: 60px;
+line-height: 65px;
+font-weight: 500;
+margin-bottom: 20px;
+letter-spacing: -1px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+
+
+/** Button Store **/
+.btn {
+    display: inline-block;
+    padding: 10px 21px;
+    margin-bottom: 1em;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;   
+}
+.btn-outline {
+    border-color: #fff;
+    color: #fff;
+}
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    max-width: 200px; 
+    padding: 10px 21px;
+}
+.btn-icon i {    
+    margin-right: 10px;
+    font-size: 24px; 
+}
+.btn-outline.inverse {
+    color: #fff;
+    border-color: #fff;
+}
+
+/*
+.btn-icon p {
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+
+}
+
+
+.btn-icon p span {
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;   
+}
+*/
+
+.btn-icon p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;  
+    text-align: left;
+}
+
+.btn-icon p span {
+    font-size: 10px;
+    line-height: 1.2;
+    text-align: left;   
+}
+.haut-100 {
+    height: 120vh;
+}
+
+
+
+/* Style pour la section de parallaxe */
+.parallax {
+    background-image: url('img/para2.png');
+    height: 500px; /* Hauteur de la section */
+    background-attachment: fixed; /* Effet de parallaxe */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw; /* S'assure que la section prend toute la largeur de la fenêtre */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.parallax2 {
+    background-image: url('img/bg.jpg');
+    height: 500px; /* Hauteur de la section */
+    background-attachment: fixed; /* Effet de parallaxe */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw; /* S'assure que la section prend toute la largeur de la fenêtre */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.parallax3 {
+background-image: url('img/team.jpg');
+height: 500px; /* Hauteur de la section */
+background-attachment: fixed; /* Effet de parallaxe */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw; /* S'assure que la section prend toute la largeur de la fenêtre */
+position: relative;
+left: 50%;
+right: 50%;
+margin-left: -50vw;
+margin-right: -50vw;
+}
+
+.parallax4 {
+    background-image: url('img/sac.jpg'); 
+    height: 500px; /* Hauteur de la section */
+    background-attachment: fixed; /* Effet de parallaxe */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw; /* S'assure que la section prend toute la largeur de la fenêtre */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    }
+
+
+/* Section trio */
+
+.bg-trio {
+    background-color: none;
+    background-image: url('img/point.jfif');    
+    background-repeat: repeat;
+}
+
+/* footer */
+
+footer {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+footer {
+  
+}
+
+section.bg-footer, footer.bg-footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+.bg-footer{
+background-color: #90C841;
+color:#ffffff;    
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+}
+
+.bg-footer p{  
+    color:#ffffff;    
+    }
+
+.game-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bg-game {
+    background-color: #D5FFD6E6;
+}
+
+hr-color {
+    max-width: 20px;
+    border-top: 1px solid #7aa52e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom: 2px solid #7aa52e;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.faction h1{
+    color:#545454;
+}
+
+
+
+
+/** Transition **/
+.bg_fonction {
+    padding: 40px 0;  
+}
+
+.bg_fonction h2{
+    color:#545454;
+}
+.align-center {
+    text-align: center;
+}
+
+.subhead {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.btn-outline {
+    border: 2px solid #089720;
+    color: #089720;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn-outline:hover {
+    background-color: #089720;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-scroll {
+    display: inline-block;
+    margin-top: 20px;
+}

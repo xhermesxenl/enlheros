@@ -1,7 +1,7 @@
 /* Navbar */
 /* Style par défaut pour les liens de la navbar */
 .custom-navbar .nav-link {
-    color: green; /* Couleur par défaut des liens */
+    color : #28a745;
     font-weight: bold; /* Texte en gras pour une meilleure lisibilité */
     text-transform: uppercase; /* Texte en majuscules pour une meilleure lisibilité */
     padding: 10px 15px; /* Ajout de padding pour améliorer l'espace cliquable */
@@ -17,14 +17,14 @@
 /* Style pour les liens de la navbar lorsqu'ils sont actifs */
 .custom-navbar .nav-link:active {
     color: white; /* Couleur du texte lorsque le lien est actif */
-    background-color: darkgreen; /* Couleur de fond lorsque le lien est actif */
+    color : #28a745;
 }
 
 /* Style pour les liens de la navbar lorsqu'ils sont en focus */
 .custom-navbar .nav-link:focus {
     outline: none; /* Suppression du contour par défaut */
     color: white; /* Couleur du texte lorsqu'il est en focus */
-    background-color: darkgreen; /* Couleur de fond lorsqu'il est en focus */
+    color : #28a745;
 }
 
 /* Ajouter une bordure en bas pour les liens */
@@ -40,7 +40,7 @@
 }
 
 .custom-text {
-    color: green; /* Couleur du texte */
+    color : #28a745;
     font-size: 48px; /* Taille du texte */
     font-weight: bold; /* Texte en gras */
     margin-left: 10px; /* Espace entre le logo et le texte */
@@ -77,13 +77,13 @@
 
 .full-width-image .col-md-6 h2
 {
-    color : darkgreen;
+    color : #28a745;
     font-size: 4em; /* Taille du texte */
     font-weight: bold; /* Texte en gras */
 }
 
 .full-width-image .col-md-6 p {
-    color: darkgreen; /* Couleur verte pour le texte */
+    color : #28a745;
     font-size: 2em;  
     line-height: 1.5; /* Hauteur de ligne pour améliorer la lisibilité */
 
@@ -185,6 +185,26 @@ margin: 0 auto;
 .fixed-size {
     width: 120px; /* Largeur fixe pour les images */
     height: 40px; /* Conserve les proportions */
+}
+
+
+
+
+
+
+.telegram-link {
+    color: #28a745; /* Couleur bleu Telegram */
+    font-weight: bold; /* Texte en gras */
+    text-decoration: none; /* Retirer la soulignure par défaut */
+    padding: 10px 20px; /* Ajouter du padding autour du lien */
+    border: 2px solid #28a745; /* Ajouter une bordure */
+    border-radius: 5px; /* Arrondir les coins */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Ajouter une transition pour les changements de couleur */
+}
+
+.telegram-link:hover {
+    background-color: #28a745; /* Couleur de fond bleu Telegram au survol */
+    color: #ffffff; /* Couleur du texte blanche au survol */
 }
 
 
