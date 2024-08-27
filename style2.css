@@ -247,9 +247,9 @@ section.bg-footer, footer.bg-footer {
 }
 
 
-.bg-footer{
-background-color: #90C841;
-color:#ffffff;    
+.bg-footer{  
+background: linear-gradient(to right, #90C841, #1BB489);
+color: white;
 }
 
 .list-inline {
@@ -323,12 +323,71 @@ hr-color {
 }
 
 .btn-outline:hover {
-    background-color: #089720;
-    color: #fff;
+    background-color: #ffffff;
+    color: #089720;
     text-decoration: none;
 }
+
+
+.btn-outline-white {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn-outline-white:hover {
+    background-color: #ffffff;
+    color: #089720;
+    text-decoration: none;
+}
+
+
+.btn-outline-op {
+    border: 2px solid #089720;
+    color: #089720;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn-outline-op:hover {
+    background-color: #089720;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .page-scroll {
     display: inline-block;
     margin-top: 20px;
+}
+
+/** Join us **/
+.faction .enlightened-title {
+    color: #089720;
+}
+
+
+.btn-link {
+    color: #089720; /* Même couleur que les boutons */
+    background-color: transparent;
+    padding: 10px 20px; /* Facultatif, si vous souhaitez un peu de remplissage pour ressembler davantage à un bouton */
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+    text-decoration: none; /* Supprime le soulignement */
+    display: inline-block; /* Assure que les liens se comportent comme des boutons */
+}
+
+.btn-link:hover {
+    color: #fff; /* Change la couleur du texte au survol */
+    background-color: #089720; /* Même effet de survol que les boutons */
+    text-decoration: none; /* Assure que le lien ne soit jamais souligné */
 }
